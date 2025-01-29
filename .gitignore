@@ -1,0 +1,18 @@
+# Ignorer les dossiers de l'environnement virtuel et les fichiers compilés Python
+venv/
+__pycache__/
+*.pyc
+
+# Ignorer les fichiers spécifiques à l'IDE
+.vscode/
+
+# Ignorer les fichiers de configuration spécifiques
+#*.sql
+#*.log
+
+# Ignorer les fichiers et dossiers d'uploads
+uploads/
+
+# Ignorer les fichiers Docker qui ne sont pas nécessaires pour le dépôt
+#Dockerfile
+#docker-compose.yml
