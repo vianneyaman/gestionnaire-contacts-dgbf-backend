@@ -5,6 +5,7 @@ __pycache__/
 
 # Ignorer les fichiers spécifiques à l'IDE
 .vscode/
+.idea/
 
 # Ignorer les fichiers de configuration spécifiques
 #*.sql
