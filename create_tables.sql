@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS Departement (
     id SERIAL PRIMARY KEY,
     nom VARCHAR(255) NOT NULL,
     localisation VARCHAR(255) NOT NULL,
-    "description" VARCHAR(255),
+    presentation VARCHAR(255),
     contact VARCHAR(255),
     est_interne BOOLEAN NOT NULL
 );

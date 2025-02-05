@@ -20,7 +20,7 @@ app.add_middleware(
     allow_methods=["*"],  # Autorise toutes les méthodes (GET, POST, etc.)
     allow_headers=["*"],  # Autorise tous les en-têtes
 )
-# Fonction pour établir une connexion à la base de données
+# Fonction pour établir la connexion à la base de données
 
 DB_NAME = "Gestion_Contact"
 DB_USER = "Mon_utilisateur"
