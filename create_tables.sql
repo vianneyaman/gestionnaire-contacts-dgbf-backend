@@ -108,7 +108,7 @@ CREATE TABLE IF NOT EXISTS Contact (
 
 
 -- 1. Table Département
-INSERT INTO departement(id, nom, localisation, description, contact, est_interne) VALUES
+INSERT INTO departement(id, nom, localisation, presentation, contact, est_interne) VALUES
 (1000001, 'Département Marketing', 'Bureau principal', 'Responsable de la stratégie marketing', 'contact@marketing.com', true),
 (1000002, 'Département Vente', 'Bureau secondaire', 'Responsable des ventes', 'contact@vente.com', true),
 (1000003, 'Département RH', 'Bureau principal', 'Responsable des ressources humaines', 'contact@rh.com', true),
