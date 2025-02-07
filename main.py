@@ -25,7 +25,7 @@ app.add_middleware(
 DB_NAME = "Gestion_Contact"
 DB_USER = "Mon_utilisateur"
 DB_PASSWORD = "kramo"
-DB_HOST = "localhost" 
+DB_HOST = "db" 
 DB_PORT = "5432"
 
 def get_db_connection():

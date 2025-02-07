@@ -18,7 +18,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . /app/
 
 # Étape 6 : Exposer le port sur lequel FastAPI va écouter
-EXPOSE 8002
+EXPOSE 8000
 
 # Étape 7 : Définir la commande pour démarrer l'application FastAPI avec uvicorn
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
